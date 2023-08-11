@@ -1,0 +1,23 @@
+{
+  "name": "ts-packagejson-import-maps-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#components/*": "./src/components/*"
+  },
+  "exports": {
+    "./components/*": "./src/components/*"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "yaml": "^1.10.2"
+  }
+}
